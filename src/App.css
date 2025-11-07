@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.App-header {
+  background-color: #3f51b5; /* Deep blue header */
+  padding: 25px 20px;
+  border-radius: 12px 12px 0 0;
+  color: white;
+  margin: -20px -20px 20px -20px; /* Adjust to match App padding */
+}
+
+.App-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2.2em;
+}
+
+.city-input-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.city-input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 60%;
+  max-width: 300px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.city-input:focus {
+  border-color: #6a82fb; /* Lighter blue on focus */
+}
+
+.search-button {
+  padding: 12px 25px;
+  background-color: #6a82fb; /* Lighter blue for button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-button:hover {
+  background-color: #4a67ed; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.error-message {
+  color: #d32f2f; /* Red for errors */
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.App-main {
+  padding: 20px 0;
+}
